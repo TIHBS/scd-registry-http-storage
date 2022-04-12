@@ -1,5 +1,9 @@
 version: "3"
 services:
+  cors-anywhere:
+    image: redocly/cors-anywhere:latest
+    ports:
+      - 49170:80
   webserver-storage:
     container_name: webserver-storage
     build:
