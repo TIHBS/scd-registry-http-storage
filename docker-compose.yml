@@ -1,5 +1,13 @@
 version: "3"
 services:
+  express-scd-storage:
+    container_name: express-scd-storage
+    build:
+      context: docker/express-scd-storage/
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+
   webserver-storage:
     container_name: webserver-storage
     build:
