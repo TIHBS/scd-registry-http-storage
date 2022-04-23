@@ -7,9 +7,9 @@
   "author": "",
   "created_on": "2022-02-28T14:58:16.1707425Z",
   "updated_on": "2022-02-28T14:58:16.1707426Z",
-  "life_cycle": 0,
+  "life_cycle": "ready",
   "scl": null,
-  "blockchain_type": 0,
+  "blockchain_type": "ethereum",
   "blockchain_version": "",
   "internal_address": "479f26b5f6e0db00d1cb9d6a4a0f8b28c30a7fe3f99fdfd68ed29ea3a12e6548",
   "metadata": null,
@@ -19,7 +19,7 @@
     {
       "name": "quaAdd",
       "description": "",
-      "scope": 0,
+      "scope": "public",
       "has_side_effects": true,
       "dispatcher": "",
       "inputs": [
@@ -33,7 +33,7 @@
     {
       "name": "quaSub",
       "description": "",
-      "Scope": 0,
+      "Scope": "public",
       "has_side_effects": true,
       "dispatcher": "",
       "inputs": [
@@ -47,7 +47,7 @@
     {
       "name": "quaDiv",
       "description": "",
-      "Scope": 0,
+      "Scope": "public",
       "has_side_effects": true,
       "dispatcher": "",
       "inputs": [
