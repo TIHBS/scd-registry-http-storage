@@ -20,10 +20,7 @@ const app = express()
   .use(bodyParser.urlencoded({ extended: false }))
   .use(bodyParser.json())
   .use(express.static(publicFiles))
-  .get("/", async (req, res) => {})
-  .use((_req, res) =>
-    res.status(404).json({ success: false, error: "Route not found" })
-  )
+  .use((_req, res) => res.sendStatus(404))
   .listen(port, () => {
     console.log(
       `${capitalizeFirstLetter(package_json.name)} listening at ${port}`
