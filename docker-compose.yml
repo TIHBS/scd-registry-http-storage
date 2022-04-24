@@ -3,7 +3,8 @@ services:
   webserver-storage:
     container_name: webserver-storage
     build:
-      context: docker/webserver-storage/
+      context: .
+      dockerfile: docker/webserver-storage/Dockerfile
     ports:
-      - 49160:80
+      - 49160:49160
     restart: unless-stopped

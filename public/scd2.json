@@ -1,10 +1,10 @@
 {
   "scdl_version": "1.1",
-  "name": "quaCoin",
+  "name": "dogeCoin",
   "version": "1.0",
   "latest_URL": null,
-  "description": "quaCoin",
-  "author": "",
+  "description": "dogeCoin",
+  "author": "doge",
   "created_on": "2022-02-28T14:58:16.1707425Z",
   "updated_on": "2022-02-28T14:58:16.1707426Z",
   "life_cycle": "ready",
@@ -17,7 +17,7 @@
   "is_stateful": true,
   "functions": [
     {
-      "name": "quaAdd",
+      "name": "dogeAdd",
       "description": "",
       "scope": "public",
       "has_side_effects": true,
@@ -31,7 +31,7 @@
       "events": []
     },
     {
-      "name": "quaSub",
+      "name": "dogeSub",
       "description": "",
       "Scope": "public",
       "has_side_effects": true,
@@ -45,7 +45,7 @@
       "events": []
     },
     {
-      "name": "quaDiv",
+      "name": "dogeDiv",
       "description": "",
       "Scope": "public",
       "has_side_effects": true,

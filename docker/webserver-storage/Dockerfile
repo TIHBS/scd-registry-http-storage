@@ -1,3 +1,11 @@
-FROM httpd:2.4
-RUN echo "Header set Access-Control-Allow-Origin "*"" >> /usr/local/apache2/conf/httpd.conf
-COPY scd.json .htaccess /usr/local/apache2/htdocs/
+FROM node:16
+
+WORKDIR /home/node
+COPY . .
+RUN chown -R node /home/node
+
+USER node
+
+RUN npm i 
+RUN npm run build
+CMD npm start
