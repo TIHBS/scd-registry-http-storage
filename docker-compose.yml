@@ -6,5 +6,5 @@ services:
       context: .
       dockerfile: docker/webserver-storage/Dockerfile
     ports:
-      - 0.0.0.0:49160:49160
+      - 49160:49160
     restart: unless-stopped
