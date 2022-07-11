@@ -1,10 +1,10 @@
 version: "3"
 services:
-  webserver-storage:
-    container_name: webserver-storage
+  scd-registry-http-storage:
+    container_name: scd-registry-http-storage
     build:
       context: .
-      dockerfile: docker/webserver-storage/Dockerfile
+      dockerfile: docker/scd-registry-http-storage/Dockerfile
     ports:
       - 49160:49160
     restart: unless-stopped
